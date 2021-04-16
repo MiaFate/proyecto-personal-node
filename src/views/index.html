@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%-title%></title>
+    <%- include('partials/head.html') %>
+  </head>
+  <body>
+    <%- include('partials/navigation.html') %>
+
+    <div class="container-fluid hero-image">
+      <!--
+        <div class="hero-text">
+            <h1>Hola, soy MiaFate</h1>
+            <p>y soy programadora</p>
+            <button>Mis PRoyectos</button>
+          </div>
+          
+        <div class="icono">
+              <img src="/src/img/FB_IMG_1523895334486.jpg" alt="">
+        </div>
+      -->
+
+      <div class="row align-items-center justify-content-around text-center">
+        <div class="col-sm-4 tarjeta">
+          <h1
+            class="circulo lead animate__animated animate__heartBeat"
+            id="bienvenide"
+          >
+            Bienvenide
+          </h1>
+          <p class="circulo animate__animated animate__pulse">
+            Esta es mi página de presentación
+          </p>
+
+          <a
+            href="https://github.com/MiaFate"
+            target="_blank"
+            class="btn btn-info btn-outline-warning col-sm-6 lead botProyectos"
+            onclick="this.blur()"
+            role="button"
+            >GitHub</a
+          >
+        </div>
+        <div class="col-sm-4 tarjeta circulo">
+          <img
+            class="img-fluid rounded-circle d-block animate__animated animate__bounce"
+            src="./img/hello_world2.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="fill">
+      <p>L</p>
+    </div>
+
+    <%- include('partials/footer.html') %>
+  </body>
+</html>

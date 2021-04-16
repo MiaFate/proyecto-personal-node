@@ -1,0 +1,21 @@
+{
+  "name": "proyecto-personal-node",
+  "version": "1.0.0",
+  "description": "proyecto personal portfolio de proyectos de miaFate para jsgroup de FrontEndCafe",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "keywords": [],
+  "author": "MiaFate",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
