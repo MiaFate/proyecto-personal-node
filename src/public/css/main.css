@@ -1,7 +1,7 @@
 /*google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Patua+One&family=Roboto+Mono:wght@500&family=Zen+Dots&display=swap");
 /*bootstrap icons*/
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");/*
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"); /*
  The hero image */
 body,
 html {
@@ -26,7 +26,7 @@ html {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   background-size: cover;
-min-height: 100vh;
+  min-height: 100vh;
 }
 #bienvenide {
   font-family: Helvetica;
@@ -35,7 +35,7 @@ min-height: 100vh;
 }
 .botProyectos {
   font-family: Helvetica;
-  color: #FFC17E;
+  color: #ffc17e;
 }
 
 .tarjeta {
@@ -45,14 +45,10 @@ min-height: 100vh;
 .circulo {
   opacity: 0.9;
 }
-.fill{
-  background: linear-gradient(
-    to right,
-    #ffd078,
-    #ff7895
-  );
+.fill {
+  background: linear-gradient(to right, #ffd078, #ff7895);
   width: 100%;
 }
-.fill p{
+.fill p {
   opacity: 0;
 }
