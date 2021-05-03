@@ -52,3 +52,11 @@ html {
 .fill p {
   opacity: 0;
 }
+
+.skills {
+  color: #a25a67;
+  background: rgb(211, 203, 203) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+}
+
