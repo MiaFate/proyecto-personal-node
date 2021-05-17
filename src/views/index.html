@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -59,62 +60,107 @@
     </div>
     -->
     <!--LOGOS-->
-    <section class="skills text-center" id="about">
-<div class="container-fluid ">
-  <h1>Sobre mi</h1>
-  <p>Actualmente estoy estudiando las siguientes tecnologías</p>
-<h1>Skills</h1>
-<div class="row justify-content-center">
-  <!--lenguaje-->
-  <div class="col-sm-2">
-    <div class="card border-light">
-      <div class="card-body">
-        <img src="./img/file_type_html_icon_130541.png" class="img-fluid " alt="">
-        <h5>html</h5>
+    <section id="lenguajes" class="px-2 pb-5 bg-info">
+      <div class="container-fluid">
+        <div class="row text-center text-white text-shadow">
+          <h2 id="about">Sobre Mi</h2>
+          <p class="h5 text-pink"  >Actualmente estoy estudiando las siguientes tecnologías</p>
+          <h2>Skills</h2>
+        </div>
+        
+        <div class="row  justify-content-evenly align-items-center">
+          <div class="col-2 py-2 lenguaje">
+            <img src="./img/file_type_html_icon_130541.png"class="img-fluid" alt="">
+            <div class="text-center d-none d-sm-block"><span class="lenguaje-nombre h5">HTML</span></div>
+          </div>
+          <div class="col-2 py-2 lenguaje">
+            <img src="./img/file_type_css_icon_130661.png" class="img-fluid" alt="">
+            <div class="text-center d-none d-sm-block"><span class="lenguaje-nombre h5">CSS</span></div>
+          </div>
+          <div class="col-2 py-2 lenguaje">
+            <img src="./img/nodejs_plain_logo_icon_146409.png" class="img-fluid" alt="">
+            <div class="text-center d-none d-sm-block"><span class="lenguaje-nombre h5">NodeJS</span></div>
+          </div>
+          <div class="col-2 py-2 lenguaje">
+            <img src="./img/javascript_original_logo_icon_146455.png" class="img-fluid" alt="">
+            <div class="text-center d-none d-sm-block"><span class="lenguaje-nombre h5">JavaScript</span></div>
+          </div>
+          <div class="col-2 py-2 lenguaje">
+            <img src="./img/bootstrap_plain_logo_icon_146619.png" class="img-fluid" alt="">
+            <div class="text-center d-none d-sm-block"><span class="lenguaje-nombre h5">Bootstrap</span></div>
+          </div>
+          
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col-sm-2">
-    <div class="card">
-      <div class="card-body">
-        <img src="./img/file_type_css_icon_130661.png" class="img-fluid " alt="">
-        <h5>css</h5>
+
+    </section>
+
+    <section class="sec_proyects">
+      <div class="proyectos">
+        <%- include('partials/carousel.html') %>
+
+       
       </div>
-    </div>
-  </div>
-  <div class="col-sm-2">
-    <div class="card">
-      <div class="card-body">
-        <img src="./img/nodejs_plain_logo_icon_146409.png" class="img-fluid " alt="">
-        <h5>nodejs</h5>
+    </section>
+
+    <!--
+    <section class="skills text-center" >
+      <div class="container">
+        <h1>Sobre mi</h1>
+        <p>Actualmente estoy estudiando las siguientes tecnologías</p>
+        <h1>Skills</h1>
+
+        <div class="row row-cols-5 justify-content-center">
+  
+          <div class="col-sm">
+            <div class="card border-light">
+              <div class="card-body col-sm">
+                <img src="./img/file_type_html_icon_130541.png" class="img-fluid " alt="">
+                <h5>html</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-body col-sm">
+                <img src="./img/file_type_css_icon_130661.png" class="img-fluid " alt="">
+                <h5>css</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-body col-sm">
+                <img src="./img/nodejs_plain_logo_icon_146409.png" class="img-fluid " alt="">
+                <h5>nodejs</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-body col-sm">
+                <img src="./img/javascript_original_logo_icon_146455.png" class="img-fluid " alt="">
+                <div class="h5">JavaScript</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card">
+              <div class="card-body col-sm">
+                <img src="./img/bootstrap_plain_logo_icon_146619.png" class="img-fluid " alt="">
+                <h5>bootstrap</h5>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="col-sm-2">
-    <div class="card">
-      <div class="card-body">
-        <img src="./img/javascript_original_logo_icon_146455.png" class="img-fluid " alt="">
-        <h5>javascript</h5>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-2">
-    <div class="card">
-      <div class="card-body text-wrap">
-        <img src="./img/bootstrap_plain_logo_icon_146619.png" class="img-fluid " alt="">
-        <h5>bootstrap</h5>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
     </section>
     
-      
+    -->   
       
 
 
-    </div>
+    
 
     <%- include('partials/footer.html') %>
   </body>

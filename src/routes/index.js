@@ -1,8 +1,10 @@
 const express = require("express");
 const router = express.Router();
+const Task = require("../models/task");
 
-router.get("/", (req, res) => {
-  res.render("index.html", { title: "Inicio" });
+router.get("/", async (req, res) => {
+  const proyects = await Task.find();
+  res.render("index.html", { title: "Inicio", proyects });
 });
 
 router.get("/about", (req, res) => {
@@ -10,8 +12,8 @@ router.get("/about", (req, res) => {
 });
 
 router.get("/contact", (req, res) => {
-    res.render("contact.html", { title: "Contact Page" });
-  });
+  res.render("contact.html", { title: "Contact Page" });
+});
 
 router.get("/projects", (req, res) => {
   res.render("projects.html", { title: "Proyectos" });
