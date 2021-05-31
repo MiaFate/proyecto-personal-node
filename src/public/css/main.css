@@ -28,6 +28,7 @@ body {
 /* HERO */
 .hero-image {
   padding-top: 70px;
+  height: 100vh;
 }
 
 .botProyectos {
@@ -83,7 +84,9 @@ body {
 
 /* FOOTER */
 footer i {
-  font-size: 4rem;
+  font-size: 2rem;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .social:hover {
