@@ -31,101 +31,42 @@
         justify-content-center
       "
     >
-      <div class="col">
-        <div class="card shadow">
-          <div class="inner">
-            <img
-              src="https://github.com/MiaFate/proyecto-personal-node/blob/master/src/public/img/Discord-Logo-emblema.jpg?raw=true"
-              class="card-img-top"
-              height="300px"
-              alt="..."
-            />
-          </div>
+     
+      <!--  -->
+      <% for(var i = 0; i < projects.length;i++){ %>
 
-          <div class="card-body text-center justify-content-around">
-            <h5 class="card-title">Discord Bot</h5>
-            <p class="card-text">Bot para discord.</p>
-            <a href="#" class="btn btn-info col-sm-4">Demo</a>
-            <a href="#" class="btn btn-info col-sm-4">Repo</a>
+        <div class="col">
+          <div class="card shadow h-100">
+            <div class="inner">
+              <img
+                src="<%= projects[i].imgUrl%>"
+                class="card-img-top"
+                height="300px"
+                alt="..."
+              />
+            </div>
+  
+            <div class="card-body text-center justify-content-around">
+              <h5 class="card-title"><%= projects[i].name%></h5>
+              <p class="card-text"><%= projects[i].description%></p>
+              
+            </div>
+            <div class="card-footer text-center">
+              <a href="<%= projects[i].demo%>" class="btn btn-info col-sm-4">Demo</a>
+              <a href="<%= projects[i].repo%>" class="btn btn-info col-sm-4">Repo</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card shadow">
-          <div class="inner">
-            <img
-              src="https://github.com/MiaFate/proyecto-personal-node/blob/master/src/public/img/hello_world.jpg?raw=true"
-              class="card-img-top"
-              height="300px"
-              alt="..."
-            />
-          </div>
+            
+        <%}%>
 
-          <div class="card-body text-center justify-content-around">
-            <h5 class="card-title">Discord Bot</h5>
-            <p class="card-text">Bot para discord.</p>
-            <a href="#" class="btn btn-info col-sm-4">Demo</a>
-            <a href="#" class="btn btn-info col-sm-4">Repo</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card shadow">
-          <div class="inner">
-            <img
-              src="https://github.com/MiaFate/proyecto-personal-node/blob/master/src/public/img/Discord-Logo-emblema.jpg?raw=true"
-              class="card-img-top"
-              height="300px"
-              alt="..."
-            />
-          </div>
+        
 
-          <div class="card-body text-center justify-content-around">
-            <h5 class="card-title">Discord Bot</h5>
-            <p class="card-text">Bot para discord.</p>
-            <a href="#" class="btn btn-info col-sm-4">Demo</a>
-            <a href="#" class="btn btn-info col-sm-4">Repo</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card shadow">
-          <div class="inner">
-            <img
-              src="https://github.com/MiaFate/proyecto-personal-node/blob/master/src/public/img/Discord-Logo-emblema.jpg?raw=true"
-              class="card-img-top"
-              height="300px"
-              alt="..."
-            />
-          </div>
 
-          <div class="card-body text-center justify-content-around">
-            <h5 class="card-title">Discord Bot</h5>
-            <p class="card-text">Bot para discord.</p>
-            <a href="#" class="btn btn-info col-sm-4">Demo</a>
-            <a href="#" class="btn btn-info col-sm-4">Repo</a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card shadow">
-          <div class="inner">
-            <img
-              src="https://github.com/MiaFate/proyecto-personal-node/blob/master/src/public/img/Discord-Logo-emblema.jpg?raw=true"
-              class="card-img-top"
-              height="300px"
-              alt="..."
-            />
-          </div>
-
-          <div class="card-body text-center justify-content-around">
-            <h5 class="card-title">Discord Bot</h5>
-            <p class="card-text">Bot para discord.</p>
-            <a href="#" class="btn btn-info col-sm-4">Demo</a>
-            <a href="#" class="btn btn-info col-sm-4">Repo</a>
-          </div>
-        </div>
-      </div>
+      
+      
+      
+      <!--  -->
     </div>
   </div>
 </section>

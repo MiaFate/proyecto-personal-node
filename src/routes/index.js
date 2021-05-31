@@ -3,8 +3,8 @@ const router = express.Router();
 const Task = require("../models/task");
 
 router.get("/", async (req, res) => {
-  const proyects = await Task.find();
-  res.render("index.html", { title: "Inicio", proyects });
+  const projects = await Task.find();
+  res.render("index.html", { title: "Inicio", projects });
 });
 
 router.get("/about", (req, res) => {
