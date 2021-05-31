@@ -7,7 +7,13 @@ body,
 html {
   height: 100%;
 }
+body{
+  background: linear-gradient(to right, #ffd078, #ff7895);
+}
+
+
 .hero-image {
+  padding-top: 70px;
   font-family: "Lobster";
   font-size: 100%;
 
@@ -26,7 +32,7 @@ html {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   background-size: cover;
-  min-height: 100vh;
+   min-height: 100vh; 
 }
 #bienvenide {
   font-family: Helvetica;
@@ -62,15 +68,14 @@ html {
     203
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-#lenguajes {
+#about {
   background: linear-gradient(to right, #ffd078, #ff7895);
 }
 .lenguaje {
   border-radius: 12px;
   border: 1px solid rgb(226, 226, 226);
   transition: all ease-out 0.2s;
-  background:rgba(255,255,255, .2);
-  
+  background: rgba(255, 255, 255, 0.2);
 }
 .lenguaje-nombre {
   font-size: calc(0.5rem + 0.5vw);
@@ -91,27 +96,21 @@ html {
 .skills.h5 {
   font-size: calc(0.5rem + 0.5vw);
 }
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
   #carousel-projects {
     padding-top: 10px;
     background: linear-gradient(to right, #ffd078, #ff7895);
   }
   #carousel-projects img {
     height: 60vh;
-  
-    
   }
-
 }
-@media (min-width: 767.98px) { 
+@media (min-width: 767.98px) {
   #carousel-projects {
     padding-top: 10px;
     background: linear-gradient(to right, #ffd078, #ff7895);
   }
   #carousel-projects img {
     height: 80vh;
-  
-    
   }
 }
-
