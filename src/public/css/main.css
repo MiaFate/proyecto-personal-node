@@ -9,6 +9,10 @@ html {
   height: 100%;
 }
 body {
+  min-height: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+
   background: #ffd078; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -24,6 +28,10 @@ body {
   color: rgb(68, 18, 78);
   font-family: "Roboto", sans-serif;
   font-size: 100%;
+}
+/* NAVBAR */
+.navbar{
+  font-family: Helvetica, Arial, sans-serif;
 }
 /* HERO */
 .hero-image {
@@ -83,12 +91,19 @@ body {
 }
 
 /* FOOTER */
-footer i {
-  font-size: 2rem;
-  padding-left: 4px;
-  padding-right: 4px;
-}
 
+footer i {
+  font-size: 1.5rem;
+  /* padding-left: 4px;
+  padding-right: 4px; */
+}
+footer p {
+  line-height: 0;
+  float: right;
+  position: relative;
+  top: 1.2rem;
+  padding-right: 5px;
+}
 .social:hover {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
