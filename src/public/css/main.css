@@ -89,9 +89,7 @@ body {
 
 /* FOOTER */
 footer i {
-  font-size: 1.5rem;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-size: 2rem;
 }
 footer p {
   line-height: 0;
