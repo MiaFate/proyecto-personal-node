@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Patua+One&family=Roboto+Mono:wght@500&family=Zen+Dots&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 /*bootstrap icons*/
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"); /*
- The hero image */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
 body,
 html {
   height: 100%;
@@ -52,9 +51,7 @@ body {
   opacity: 0.9;
 }
 /* ABOUT */
-#about {
-  background: linear-gradient(to right, #ffd078, #ff7895);
-}
+
 .lenguaje {
   border-radius: 12px;
   border: 1px solid rgb(226, 226, 226);
@@ -91,11 +88,10 @@ body {
 }
 
 /* FOOTER */
-
 footer i {
   font-size: 1.5rem;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 footer p {
   line-height: 0;
@@ -112,7 +108,7 @@ footer p {
 }
 
 .social {
-  transform: scale(1.1);
+  transform: scale(0.8);
   -webkit-transform: scale(0.8);
   /* Browser Variations: */
 
