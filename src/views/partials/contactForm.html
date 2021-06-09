@@ -1,6 +1,6 @@
 <div class="container col-md-8 mt-5 py-5" id="contact">
     <p class="h2 text-center pt-5">Contacto</p>
-    <form action="https://formspree.io/f/mpzkdlgz" method="POST">
+    <form class="needs-validation" id="form" action="https://formspree.io/f/mpzkdlgz" method="POST" novalidate>
       <div class="mb-3">
         <label for="_replyto" class="form-label">Su casilla de e-mail</label>
         <input
@@ -9,15 +9,21 @@
           id="_replyto"
           name="email"
           placeholder="nombre@ejemplo.com"
+          value=""
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          required
         />
+        <!-- <div class="valid-feedback">mail ingresado</div> -->
+        <div class="invalid-feedback">ingrese un mail</div>
       </div>
       <div class="mb-3">
         <label for="message" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="message" name="message" placeholder="Mensaje de ejemplo" rows="5"></textarea>
+        <textarea class="form-control" id="message" name="message" placeholder="Mensaje de ejemplo" rows="5" value="" required></textarea>
+        <div class="invalid-feedback">debe ingresar un mensaje</div>
       </div>
       <div class="button text-center">
-        <button type="submit" class="btn btn-info">Enviar</button>
+        <button type="submit" class="btn btn-info" onclick="this.blur()">Enviar</button>
       </div>
-      
+            
     </form>
   </div>
