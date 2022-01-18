@@ -1,6 +1,6 @@
 # proyecto-personal-node
 
-Live: https://portfolio-miafate.herokuapp.com/
+Live: https://portfolio.pochitacode.com
 
 
 portfolio personal que estoy haciendo en el grupo de estudio javascript de FrontEndCafe
